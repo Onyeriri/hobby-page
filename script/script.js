@@ -7,6 +7,6 @@ let dateOption = {
 
 let date = new Date();
 
-document.getElementById('date').innerHTML = date.toLocaleDateString('en-GB', dateOption) + '.';
+const element = document.getElementById('date');
 
-console.log(`Today's date is ${date}`);
+element.innerHTML = date.toLocaleDateString('en-GB', dateOption) + '.';
