@@ -50,6 +50,12 @@ float: right;
 padding: .5em 0 .5em .5em;
 }
 
+p {
+  font-family: 'Roboto Slab', serif;
+  margin: 1em 0;
+
+}
+
 /* header css section */
 
 .header {
@@ -57,7 +63,8 @@ padding: .5em 0 .5em .5em;
 }
 
 .header>h1 {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: Lobster, cursive;
 }
 
 .header>figure.img {
@@ -68,7 +75,8 @@ padding: .5em 0 .5em .5em;
 }
 
 .header>figure>img.size {
-  width: 50%;
+  width: 90%;
+  padding-top: 1em;
 }
 
 /* achievement css section */
@@ -95,16 +103,38 @@ padding: .5em 0 .5em .5em;
   width: 100%;
 }
 
+/* quotes section */
+.quotes {
+  display: block;
+  margin: 1.5em 0;
+  font-size: 1.5em;
+  font-family: 'Bebas Neue', cursive;
+} 
+
 /* footer css section */
 .footer {
   background-color: greenyellow;
   width: 100%;
+  height: 20%;
+  text-align: center;
 }
 
 .footer_container{
-  width: 100%;
+  /* width: 20%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  background-color: pink;
+  /* justify-content:space-around; */
+  
 }
 
 .footer_image {
-  width: 50%;
+  width: 6%;
+  cursor: pointer;
+  padding: .5em;
+  /* text-align: center; */
+}
+
+#date {
+  padding-top: 1.5em;
 }
