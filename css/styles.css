@@ -56,37 +56,57 @@ p {
 
 }
 
+h3 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 800;
+  letter-spacing: .2em;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: 'Passion One', cursive;
+  font-size: 2em;
+  font-weight: 200;
+}
+
 /* header css section */
 
 .header {
   text-align: center;
 }
 
-.header>h1 {
+/* .header>h1 {
   font-size: 2em;
   font-family: Lobster, cursive;
-}
+} */
 
 .header>figure.img {
   width: 100%;
-  background-color: blue;
   margin: 0;
   padding: 0;
 }
 
 .header>figure>img.size {
-  width: 90%;
-  padding-top: 1em;
+  width: 100%;
+  padding-top: .5em;
+}
+
+figcaption {
+  text-align: left;
+  font-size: 1.2em;
 }
 
 /* achievement css section */
 .achievements {
-  background-color: aqua;
   width: 100%;
 }
 
 .achievements>article>figure.fig {
-  background-color: brown;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -95,7 +115,6 @@ p {
 
 .achievements>article>figure>img.size {
   width: 100%;
-  background-color: red;
   text-align: center;
 }
 
@@ -113,19 +132,10 @@ p {
 
 /* footer css section */
 .footer {
-  background-color: greenyellow;
+  background-color: lightgray;
   width: 100%;
   height: 20%;
   text-align: center;
-}
-
-.footer_container{
-  /* width: 20%; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  background-color: pink;
-  /* justify-content:space-around; */
-  
 }
 
 .footer_image {
@@ -136,5 +146,5 @@ p {
 }
 
 #date {
-  padding-top: 1.5em;
+  padding-top: .5em;
 }
