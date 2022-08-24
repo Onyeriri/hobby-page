@@ -1,3 +1,4 @@
+// date object
 let dateOption = {
   weekday: 'long',
   year: 'numeric',
@@ -5,8 +6,10 @@ let dateOption = {
   day: 'numeric'
 }
 
+// initialize date variable
 let date = new Date();
 
+// initialize HTML element
 const element = document.getElementById('date');
 
 element.innerHTML = date.toLocaleDateString('en-GB', dateOption) + '.';
