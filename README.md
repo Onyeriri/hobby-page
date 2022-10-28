@@ -1,4 +1,4 @@
-# Hobby_page
+# Hobby page
 
 This web project discussed in details the story of my idol **Steve Job's** in Technology sphere. The application contains sections that descried who Job is and his life journey including his _famous quotes_.
 
